@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* sidebar */
+.side-bar{
+  position: fixed;
+  left: -100%;
+  top: 90px;
+  transition: 0.5s ease-in-out;
+}
+
+.sidebar-active{
+  position: fixed;
+  left: 0;
+  top: 90px;
+  width: 50%;
+  transition: all 0.5s ease-in-out;
+}
+
+
+/* hamburger */
+.hamburger-pointer{
+  cursor: pointer;
+}
+
+.hamburger-span{
+  display: block;
+  background-color: #000;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  transition: all 0.3s ease-in-out;
+}
+
+.hamburger-div .hamburger-span:nth-child(1){
+  transform: translateY(8px) rotate(45deg);
+}
+.hamburger-div .hamburger-span:nth-child(2){
+  opacity: 0;
+}
+.hamburger-div .hamburger-span:nth-child(3){
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+
+@media screen and (max-width:768px) {
+  .hamburger-div{
+    display: block;
+    cursor: pointer;
+  }
+}
+
+/* blur screen on sidebar active */
+/* .components-blur-active{
+  filter: blur(10px);
+};
+
+.components-blur{
+  padding-top: 1rem;
+  min-height: 100vh;
+  background-color: "#F5F5F5";
+  transition: all 0.5s ease-in-out;
+} */
