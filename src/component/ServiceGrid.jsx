@@ -16,32 +16,28 @@ const ServiceGrid = () => {
             <div className='flex flex-col items-center justify-around bg-homely-background-white h-[430px] px-4'>
                 <img src={easyOrder} alt='easy-order'/>
                 <article className='h-[145px] text-center'>
-                    <h2 className='font-bold text-xl md:text-3xl'>Easy to order</h2>
+                    <h2 className='font-bold text-xl md:text-3xl'>Easy To Order</h2>
                     <p className='font-normal text-base md:text-xl'> Order food at a single click and select all food to order at any point 
-                        in time and at ease and comfort
+                        in time and at ease and comfort.
                     </p>
                 </article>
             </div>
             <div className='flex flex-col items-center justify-around bg-homely-background-white h-[430px] px-4'>
                 <img src={deliveryMan} alt='delivery'/>  
                 <article className='h-[145px] text-center'>
-                    <h2 className='font-bold text-xl md:text-3xl'>Easy to order</h2>
-                    <p className='font-normal text-base md:text-xl'> Order food at a single click and select all food to order at any point 
-                        in time and at ease and comfort
-                    </p>
+                    <h2 className='font-bold text-xl md:text-3xl'>Fast Delivery</h2>
+                    <p className='font-normal text-base md:text-xl'> Fast and reliable delivery to any location at any time and any day.</p>
                 </article>
             </div>
             <div className='flex flex-col items-center justify-around bg-homely-background-white h-[430px] px-4'>
                 <img src={topFoodIcon} alt='top-food'/>
                 <article className='h-[145px] text-center'>
-                    <h2 className='font-bold text-xl md:text-3xl'>Easy to order</h2>
-                    <p className='font-normal text-base md:text-xl'> Order food at a single click and select all food to order at any point 
-                        in time and at ease and comfort
+                    <h2 className='font-bold text-xl md:text-3xl'>100% Quality</h2>
+                    <p className='font-normal text-base md:text-xl'> We provide quality food for you and your loved ones for health and
+                        wellness.
                     </p>
                 </article>
             </div>
-
-            
         </section>
     </main>
   )

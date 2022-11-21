@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import { 
   Navs,
   About,
-  ServiceGrid
+  ServiceGrid,
+  DishGrid,
 } from '../component';
 
 const LandingPage = () => {
@@ -12,10 +13,11 @@ const LandingPage = () => {
     <>
       <Navs sidebar={sidebar} setSidebar={setSidebar}/>
 
-      <div className='bg-homely-background-white py-4 min-h-screen'>
+      <div className='bg-homely-background-white py-6 min-h-screen'>
       {/* <div className={sidebar ? "components-blur-active" : "components-blur"}> */}
         <About/>
         <ServiceGrid/>
+        <DishGrid/>
       </div>
     </>
   )

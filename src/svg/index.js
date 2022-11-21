@@ -1,12 +1,1 @@
 export { ReactComponent as Logo } from "../svg/logo.svg";
-// export { ReactComponent as FoodIcon } from "../svg/food-icon.svg";
-// export { ReactComponent as DeliveryMan } from "../svg/delivery-man.svg";
-// export { ReactComponent as EasyOrder } from "../svg/easy-order.svg";
-// export { ReactComponent as FriedRice } from "../svg/fried-rice.svg";
-// export { ReactComponent as JollofRice } from "../svg/jollof-rice.svg";
-// export { ReactComponent as MobileApp } from "../svg/mobile-app.svg";
-// export { ReactComponent as Porrage } from "../svg/porrage.svg";
-// export { ReactComponent as Spagetti } from "../svg/spag.svg";
-// export { ReactComponent as TopFoodIcon } from "../svg/top-food-icon.svg";
-// export { ReactComponent as YamEggSauce } from "../svg/yam-egg-sause.svg";
-// export { ReactComponent as Cart } from "../svg/cart.svg";
