@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-// import { Logo } from "../svg";
+import { Logo } from "../svg";
 import { Sidebar } from "../component";
 
 const Navs = ({ sidebar, setSidebar }) => {
@@ -9,7 +9,7 @@ const Navs = ({ sidebar, setSidebar }) => {
         <>
             <nav className="flex items-center justify-between h-[110px] bg-homely-background-peach px-8">
                 <div className="hidden md:block w-[107px] h-[44px]">
-                    {/* <Logo/> */}
+                    <Logo/>
                 </div>
         
                 <ul className="flex-1 max-w-[800px] hidden md:flex items-center justify-between font-normal text-lg">

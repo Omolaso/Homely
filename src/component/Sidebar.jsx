@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-// import img from  "../svg/logo.svg"
+import img from  "../svg/logo.svg"
 // import { Logo } from "../svg"; wasn't displaying due to hidden in Navs.
 
 
@@ -21,7 +21,7 @@ const Sidebar = ({ sidebar, setSidebar }) => {
         <>
             <section className="flex item-center justify-between">
                 <div>
-                    {/* <img src={img} alt="logo" /> */}
+                    <img src={img} alt="logo" />
                 </div>
 
                 <div className={sidebar ? "hamburger-div" : "hamburger-pointer"} onClick={toggleSidebar}>
