@@ -1,5 +1,8 @@
 import React from 'react';
-import { EasyOrder, DeliveryMan, TopFoodIcon, FoodIcon } from "../svg"
+// import { EasyOrder, DeliveryMan, TopFoodIcon } from "../svg"
+import easyOrder from "../svg/easy-order.svg";
+import deliveryMan from "../svg/delivery-man.svg";
+import topFoodIcon from "../svg/top-food-icon.svg";
 
 const ServiceGrid = () => {
   return (
@@ -11,7 +14,7 @@ const ServiceGrid = () => {
 
         <section className="grid grid-cols-1 md:grid-cols-3 items-center bg-homely-background-peach h-full md:h-[545px] mt-4 px-4 md:py-0 py-8 gap-4">
             <div className='flex flex-col items-center justify-around bg-homely-background-white h-[430px] px-4'>
-                <EasyOrder/>     
+                <img src={easyOrder} alt='easy-order'/>
                 <article className='h-[145px] text-center'>
                     <h2 className='font-bold text-xl md:text-3xl'>Easy to order</h2>
                     <p className='font-normal text-base md:text-xl'> Order food at a single click and select all food to order at any point 
@@ -20,7 +23,7 @@ const ServiceGrid = () => {
                 </article>
             </div>
             <div className='flex flex-col items-center justify-around bg-homely-background-white h-[430px] px-4'>
-                <DeliveryMan/>     
+                <img src={deliveryMan} alt='delivery'/>  
                 <article className='h-[145px] text-center'>
                     <h2 className='font-bold text-xl md:text-3xl'>Easy to order</h2>
                     <p className='font-normal text-base md:text-xl'> Order food at a single click and select all food to order at any point 
@@ -29,7 +32,7 @@ const ServiceGrid = () => {
                 </article>
             </div>
             <div className='flex flex-col items-center justify-around bg-homely-background-white h-[430px] px-4'>
-                <TopFoodIcon/>     
+                <img src={topFoodIcon} alt='top-food'/>
                 <article className='h-[145px] text-center'>
                     <h2 className='font-bold text-xl md:text-3xl'>Easy to order</h2>
                     <p className='font-normal text-base md:text-xl'> Order food at a single click and select all food to order at any point 

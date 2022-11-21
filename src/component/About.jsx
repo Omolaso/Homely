@@ -1,5 +1,7 @@
 import React from "react";
-import { FoodIcon } from "../svg";
+// import { FoodIcon } from "../svg";
+import foodIcon from "../svg/food-icon.svg";
+
 
 const About = () => {
     return (
@@ -18,7 +20,7 @@ const About = () => {
                     </div>
                 </div>
                 <div className="hidden md:block">
-                    <FoodIcon className="w-[483px] h-[483px]" />
+                    <img src={foodIcon} alt="food-icon" className="w-[483px] h-[483px]" />
                 </div>
             </section>
 
