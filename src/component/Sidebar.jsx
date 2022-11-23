@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import img from  "../svg/logo.svg"
 // import { Logo } from "../svg"; wasn't displaying due to hidden in Navs.
 
@@ -21,7 +21,9 @@ const Sidebar = ({ sidebar, setSidebar }) => {
         <>
             <section className="flex item-center justify-between">
                 <div>
-                    <img src={img} alt="logo" />
+                    <a href="/">
+                        <img src={img} alt="logo" />
+                    </a>
                 </div>
 
                 <div className={sidebar ? "hamburger-div" : "hamburger-pointer"} onClick={toggleSidebar}>
@@ -34,19 +36,19 @@ const Sidebar = ({ sidebar, setSidebar }) => {
             <div className={sidebar ? "sidebar-active" : "side-bar"}>
                 <ul className="flex flex-col items-start font-normal px-8 py-4 text-lg bg-homely-background-peach gap-4 h-screen">
                     <li className="active:text-homely-red" onClick={toggleSidebar}>
-                        <Link to="#">Home</Link>
+                        <a href="#home">Home</a>
                     </li>
                     <li className="active:text-homely-red" onClick={removeSidebar}>
-                        <Link to="#">About us</Link>
+                        <a href="#about">About us</a>
                     </li>
                     <li className="active:text-homely-red" onClick={removeSidebar}>
-                        <Link to="#">Our Products</Link>
+                        <a href="#products">Our Products</a>
                     </li>
                     <li className="active:text-homely-red" onClick={removeSidebar}>
-                        <Link to="#">Testimonies</Link>
+                        <a href="#testimonies">Testimonies</a>
                     </li>
                     <li className="active:text-homely-red" onClick={removeSidebar}>
-                        <Link to="#" onClick={removeSidebar}>Contact us</Link>
+                        <a href="#contact" onClick={removeSidebar}>Contact us</a>
                     </li>
                     <li className="flex-[0.3] w-full max-w-[150px]" onClick={removeSidebar}>
                         <button 
