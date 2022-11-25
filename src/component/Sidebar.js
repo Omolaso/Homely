@@ -55,7 +55,7 @@ const Sidebar = ({ sidebar, setSidebar }) => {
                             type="button"
                             className="bg-homely-red text-homely-white rounded-lg p-2 w-full"
                         >
-                            Cart 
+                            Login
                         </button>
                     </li>
                 </ul>

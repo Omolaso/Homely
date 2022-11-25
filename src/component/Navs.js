@@ -1,7 +1,7 @@
 import React from "react";
 // import { Link } from "react-router-dom";
 import { Logo } from "../svg";
-import { Sidebar } from "../component";
+import { Sidebar } from ".";
 
 const Navs = ({ sidebar, setSidebar }) => {
 
@@ -35,7 +35,7 @@ const Navs = ({ sidebar, setSidebar }) => {
                             type="button"
                             className="bg-homely-red text-homely-white rounded-lg p-2 w-full"
                         >
-                            Cart 
+                            Login
                         </button>
                     </li>
                 </ul>

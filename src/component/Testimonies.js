@@ -5,7 +5,7 @@ const Testimonies = () => {
     <main id='testimonies' className='pt-8 px-8'>
         <header className='text-center'>
             <h1 className='font-bold text-3xl md:text-5xl text-homely-red'>Testimonies</h1>
-            <p className='text-lg md:text-2xl font-normal text-homely-black'>This is what our clients are saying.</p>
+            <p className='text-lg md:text-2xl font-normal text-homely-black mt-1'>This is what our clients are saying.</p>
         </header>
         <section className='grid grid-cols-1 md:grid-cols-3 gap-6 my-4'>
             <div className='text-center md:text-left'>

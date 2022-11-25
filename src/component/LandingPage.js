@@ -9,7 +9,7 @@ import {
   Testimonies,
   Contact,
   Footer
-} from '../component';
+} from '.';
 
 const LandingPage = () => {
   const [sidebar, setSidebar] = useState(false);
@@ -18,7 +18,7 @@ const LandingPage = () => {
     <>
       <Navs sidebar={sidebar} setSidebar={setSidebar}/>
 
-      <div className='bg-homely-background-white py-6 min-h-screen'>
+      <div className='bg-homely-background-white pt-6 min-h-screen'>
         <Home/>
         <ServiceGrid/>
         <DishGrid/>
