@@ -6,7 +6,7 @@ import topFoodIcon from "../svg/top-food-icon.svg";
 
 const ServiceGrid = () => {
   return (
-    <main className='mt-8'>
+    <main className='pt-8'>
         <header className='text-center'>
             <h1 className='font-bold text-3xl md:text-5xl text-homely-red'>Why choose us?</h1>
             <p className='text-lg md:text-2xl font-normal text-homely-black'>This is what makes our product different.</p>

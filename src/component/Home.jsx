@@ -5,7 +5,7 @@ import foodIcon from "../svg/food-icon.svg";
 
 const Home = () => {
     return (
-        <main id="home" className="flex flex-col px-8">
+        <main className="flex flex-col px-8">
             <section className="flex flex-row items-center justify-between">
                 <div className="flex flex-col ">
                     <article className="text-center md:text-left w-full md:w-[483px]">

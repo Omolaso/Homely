@@ -5,7 +5,7 @@ import appStore from "../svg/app-store.svg";
 
 const MobileApp = () => {
     return (
-        <main id="mobileApp" className="px-8 mt-8">
+        <main id="mobileApp" className="px-8 pt-8">
             <header className='text-center'>
                 <h1 className='font-bold text-3xl md:text-5xl text-homely-red'>Get our mobile app</h1>
                 <p className='text-lg md:text-2xl font-normal text-homely-black mt-2'>Enjoy better experience</p>

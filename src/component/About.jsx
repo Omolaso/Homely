@@ -3,7 +3,7 @@ import food from "../svg/about-food.svg";
 
 const About = () => {
   return (
-    <main id='about' className='flex flex-row items-center justify-between px-8 mt-8'>
+    <main id='about' className='flex flex-row items-center justify-between px-8 pt-8'>
       <section className='flex flex-col flex-1 md:flex-[0.5] justify-between h-full md:h-[370px] text-center md:text-left'>
         <h1 className='font-bold text-3xl md:text-[40px] text-homely-black'>About Us</h1>
         <p className='font-normal text-xl md:text-[28px] leading-9 w-full md:w-[530px]'>

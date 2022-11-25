@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChevronRight, faChevronLeft } from '@fortawesome/free-solid-svg-icons';
+// import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
+
 
 const ImageSlider = ({slides}) => {
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -17,9 +17,9 @@ const ImageSlider = ({slides}) => {
         setCurrentIndex(newIndex);
     }
 
-    useEffect(() =>{
-        // goToNext();
-    })
+    // useEffect(() =>{
+    //     goToNext();
+    // })
 
     const slideStyles = {
         width: "100%",
@@ -34,19 +34,11 @@ const ImageSlider = ({slides}) => {
 
     return(
         <div className='h-full relative'>
-            <div className='absolute top-[40%] right-4 z-10'>
-                <FontAwesomeIcon 
-                    icon={faChevronRight}
-                    className="text-2xl md:text-5xl cursor-pointer"
-                    onClick={goToNext}
-                />
+            <div className='absolute top-[40%] right-4 z-10 text-2xl md:text-5xl cursor-pointer' onClick={goToNext}>
+               ❱
             </div>
-            <div className='absolute top-[40%] left-4 z-10'>
-                <FontAwesomeIcon
-                    icon={faChevronLeft}
-                    className="text-2xl md:text-5xl cursor-pointer"
-                    onClick={goToPrevious}
-                />
+            <div className='absolute top-[40%] left-4 z-10 text-2xl md:text-5xl cursor-pointer' onClick={goToPrevious}>
+                ❰
             </div>
             <div style={slideStyles}></div>
         </div>

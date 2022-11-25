@@ -2,7 +2,7 @@ import React from 'react'
 
 const Testimonies = () => {
   return (
-    <main id='testimonies' className='mt-8 px-8'>
+    <main id='testimonies' className='pt-8 px-8'>
         <header className='text-center'>
             <h1 className='font-bold text-3xl md:text-5xl text-homely-red'>Testimonies</h1>
             <p className='text-lg md:text-2xl font-normal text-homely-black'>This is what our clients are saying.</p>
