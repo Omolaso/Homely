@@ -1,11 +1,13 @@
 import React from "react";
-import { LandingPage } from "./component";
+import { LandingPage, ScrollToTop } from "./component";
 
 
 function App() {
+
   return (
     <>
-     <LandingPage/>
+      <ScrollToTop/>
+      <LandingPage/>
     </>
   );
 }

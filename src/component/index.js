@@ -9,5 +9,6 @@ export { default as MobileApp } from "./MobileApp";
 export { default as Testimonies } from "./Testimonies";
 export { default as Contact } from "./Contact";
 export { default as Footer } from "./Footer";
+export { default as ScrollToTop } from "./ScrollToTop";
 
  
